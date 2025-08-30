@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4fff4;
+}
+
+header {
+  background: #228b22;
+  color: white;
+  padding: 20px;
+  border-radius: 0 0 12px 12px;
+}
+
+h1, h2 {
+  margin: 10px 0;
+}
+
+.quote {
+  font-style: italic;
+  margin-top: 5px;
+}
+
+.block {
+  margin: 40px auto;
+  padding: 20px;
+  width: 250px;
+  background: #4caf50;
+  color: white;
+  font-size: 1.2em;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.block:hover {
+  transform: scale(1.05);
+  background: #45a049;
+}
+
+#map {
+  margin: 20px auto;
+  width: 80%;
+  height: 500px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.note {
+  font-size: 0.9em;
+  color: #555;
+}
